@@ -1,0 +1,6 @@
+framework module QuCodeing {
+  umbrella header "QuCodeing-umbrella.h"
+
+  export *
+  module * { export * }
+}

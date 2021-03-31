@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - QuCodeing (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - QuCodeing (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  QuCodeing:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  QuCodeing: 8ea6f6145e62bf75b9fd8c9905576b6dc15df788
+
+PODFILE CHECKSUM: 47a4d4a12259c77610f727b4b22a71c9dc3a7a3c
+
+COCOAPODS: 1.9.3
